@@ -1,0 +1,27 @@
+{
+  "name": "fcc-tribute",
+  "version": "1.0.0",
+  "description": "Tribute Page for freeCodeCamp",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^9.6.0",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VAggrippino/fcc-tribute.git"
+  },
+  "keywords": [
+    "freeCodeCamp"
+  ],
+  "author": "Vince Aggrippino",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/VAggrippino/fcc-tribute/issues"
+  },
+  "homepage": "https://github.com/VAggrippino/fcc-tribute#readme"
+}
