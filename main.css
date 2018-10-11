@@ -6,6 +6,11 @@ body {
 
 header {
   width: 100vw;
+  overflow: hidden;
+}
+
+main {
+  margin: 1em;
 }
 
 @keyframes slide {
@@ -47,4 +52,32 @@ figure img {
 
 figcaption {
   margin: 1em 1em 0 0;
+}
+
+.timeline {
+  border: 1px solid black;
+  border-radius: 1em;
+  margin: 2em 0.5em;
+  position: relative;
+}
+
+.timeline h2 {
+  display: inline-block;
+  position: absolute;
+  top: -1.5em;
+  left: 0.5em;
+  background-color: white;
+  padding: 0 0.25em;
+}
+
+.timeline dl {
+  margin: 1em;
+}
+
+.timeline dt {
+  font-weight: bold;
+}
+
+.timeline dd {
+  margin: 0 0 0.5em 1em;
 }
