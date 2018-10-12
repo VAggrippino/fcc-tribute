@@ -120,3 +120,7 @@ main {
 .timeline dd {
   margin: 0 0 0.5em 1em;
 }
+
+footer {
+  margin: 1rem;
+}
