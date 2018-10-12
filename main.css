@@ -4,37 +4,6 @@ body {
   height: 100%;
 }
 
-main {
-  margin: 1em;
-  display: flex;
-  flex-direction: column;
-}
-
-.tribute-title {
-  order: 1;
-}
-
-#img-div {
-  order: 4;
-}
-
-#tribute-info {
-  order: 2;
-}
-
-.poem {
-  order: 3;
-}
-
-#image {
-  max-width: 100%;
-  display: block;
-  height: auto;
-  margin: auto;
-  border: 30px inset saddlebrown;
-  box-sizing: border-box;
-}
-
 header {
   width: 100vw;
   overflow: hidden;
@@ -80,25 +49,58 @@ figure img {
 
 figcaption {
   font-size: 1.1em;
-  margin: 0em 1em 0 0;
+  margin: 0 1em 0 0;
+}
+
+main {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .tribute-title {
   margin: 1em 0;
+  order: 1;
 }
 
 .tribute-title h1 {
   margin: 0;
 }
 
-.timeline {
-  border: 1px solid black;
-  border-radius: 1em;
-  margin: 2em 0.5em;
+#img-div {
+  order: 4;
+  border: 1px solid silver;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
   position: relative;
 }
 
-.timeline h2 {
+#tribute-info {
+  order: 2;
+}
+
+.poem {
+  order: 3;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  border: 30px inset saddlebrown;
+  box-sizing: border-box;
+}
+
+.timeline {
+  order: 5;
+  border: 1px solid silver;
+  padding: 1rem;
+  position: relative;
+}
+
+.timeline h2, #img-div h2 {
   display: inline-block;
   position: absolute;
   top: -1.5em;
