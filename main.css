@@ -4,13 +4,22 @@ body {
   height: 100%;
 }
 
+main {
+  margin: 1em;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  border: 30px inset saddlebrown;
+  box-sizing: border-box;
+}
+
 header {
   width: 100vw;
   overflow: hidden;
-}
-
-main {
-  margin: 1em;
 }
 
 @keyframes slide {
@@ -23,7 +32,7 @@ main {
 
 .slideshow {
   width: 500vw;
-  height: 33vh;
+  height: 100%;
   display: flex;
   background-color: black;
   color: white;
@@ -48,10 +57,12 @@ figure {
 figure img {
   object-fit: contain;
   max-height: 100%;
+  max-width: 33%;
 }
 
 figcaption {
-  margin: 1em 1em 0 0;
+  font-size: 1.1em;
+  margin: 0em 1em 0 0;
 }
 
 .timeline {
@@ -65,9 +76,9 @@ figcaption {
   display: inline-block;
   position: absolute;
   top: -1.5em;
-  left: 0.5em;
+  left: 0;
   background-color: white;
-  padding: 0 0.25em;
+  padding: 0 5px;
 }
 
 .timeline dl {
