@@ -6,6 +6,24 @@ body {
 
 main {
   margin: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.tribute-title {
+  order: 1;
+}
+
+#img-div {
+  order: 4;
+}
+
+#tribute-info {
+  order: 2;
+}
+
+.poem {
+  order: 3;
 }
 
 #image {
