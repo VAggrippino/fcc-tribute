@@ -65,6 +65,14 @@ figcaption {
   margin: 0em 1em 0 0;
 }
 
+.tribute-title {
+  margin: 1em 0;
+}
+
+.tribute-title h1 {
+  margin: 0;
+}
+
 .timeline {
   border: 1px solid black;
   border-radius: 1em;
