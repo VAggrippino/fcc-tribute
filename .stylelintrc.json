@@ -2,6 +2,7 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "selector-list-comma-newline-after": "always-multi-line",
-    "block-opening-brace-space-before": null
+    "block-opening-brace-space-before": null,
+    "no-descending-specificity": null
   }
 }
