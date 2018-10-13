@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar|Gentium+Basic');
+
 html,
 body {
   margin: 0;
   height: 100%;
   overflow-x: hidden;
+  font-family: "Gentium Basic", "Georgia", serif;
+}
+
+h1, h2 {
+  font-family: "Eczar", "Verdana", sans-serif;
+  line-height: 1em;
 }
 
 header {
@@ -114,7 +122,7 @@ main {
   order: 4;
   border: 1px solid silver;
   padding: 1rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
   box-sizing: border-box;
   position: relative;
 }
@@ -153,7 +161,7 @@ main {
 .timeline h2, #img-div h2 {
   display: inline-block;
   position: absolute;
-  top: -1.5em;
+  top: -1.4em;
   left: 0;
   background-color: white;
   padding: 0 5px;
