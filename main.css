@@ -1,4 +1,15 @@
-.container-fluid {
-    padding-top: 15px;
-    padding-bottom: 15px;
+.main {
+    max-width: 50em;
+    margin: auto;
+}
+
+.header {
+    background:
+        linear-gradient(to right, white 30%, transparent),
+        url('images/da-vinci-header.png') bottom 90% right 0/80% no-repeat;
+    padding: 1rem;
+}
+
+.title {
+    margin: 0;
 }
