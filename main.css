@@ -16,8 +16,8 @@ h1, h2, p, dl {
 
 .header {
     background:
-        linear-gradient(to right, peachpuff 30%, transparent),
-        url('images/Vitruvian.jpg') top -60px left 135px/70% no-repeat;
+        linear-gradient(to right, peachpuff 40%, transparent),
+        url('images/Vitruvian.jpg') top 25% right -40%/70% no-repeat;
     padding: 1rem;
 }
 
@@ -55,4 +55,12 @@ h1, h2, p, dl {
 
 .intro p {
     margin: 0;
+}
+
+@media (min-width: 30rem) {
+    .intro {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(4, auto);
+    }
 }
