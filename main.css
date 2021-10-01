@@ -2,6 +2,10 @@
     --section-gap: 2rem;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1, h2, p, dl, dd {
     margin: 0;
 }
@@ -19,6 +23,18 @@ h1, h2, p, dl, dd {
         linear-gradient(to right, peachpuff 40%, transparent),
         url('images/Vitruvian.jpg') top 25% right -40%/70% no-repeat;
     padding: 1rem;
+}
+
+.page-title {
+    font-size: clamp(1.5rem, 8vw, 3rem);
+}
+
+.subtitle {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+}
+
+h2 {
+    font-size: clamp(1.3rem, 4.5vw, 1.5rem);
 }
 
 .main {
@@ -68,7 +84,7 @@ h1, h2, p, dl, dd {
 
 .timeline dl {
     display: grid;
-    grid-template-columns: 6rem auto;
+    grid-template-columns: 8rem auto;
     gap: 0.5rem 1rem;
 }
 
